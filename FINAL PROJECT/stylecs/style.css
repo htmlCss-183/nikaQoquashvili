@@ -1,0 +1,727 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+.headercontainer{
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    gap:10px;
+    
+}
+
+.Academy{
+    height: 20px;
+    float: left;
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.Signagi{
+    object-fit: cover;
+    width: 1480px;
+}
+
+.imagecontainer{
+    position: relative;
+    display: inline-block;
+}
+
+.imagecontainer::after{
+    content: "Welcome To Sighnagi";
+    position: absolute;
+    top: 4%;
+    left: 20%;
+    transform: translate(-50,  -50%);
+    color: yellow;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.greendiv{
+    background-color: aqua  ;
+    text-align: center;
+}
+
+.span{
+    color: darkorange;
+    font-family: 'Borel',cursive;
+    font-size: 80px;
+    font-weight: 400px;
+    line-height: 165px;
+}
+.p{
+    color: white;
+    font-weight: 900px;
+    font-size: 80px;
+    line-height: 101px;
+    text-align: center;
+}
+
+.myp{
+    color: white;
+    font-size: 30px;
+    line-height: 30px;
+    width: 972px;
+    margin-left: 280px;
+    text-align: center;
+    
+
+
+}
+
+.img{
+    width: 332px;
+    height: 400px;
+    object-fit: cover;
+    position: relative;
+    border-radius: 10px;
+    left: 30px;
+    top: 20px;
+}
+
+.section2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bigp{
+    width: 450px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+}
+h1{
+    font-family: 'Borel',cursive;
+    color: aqua;
+    font-weight: 400;
+    font-size: 50px;
+    margin-top: 20px;
+}
+.smallp{
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 101px;
+}
+
+.doda {
+ width: 332px;
+ height: 400px;
+ object-fit: cover;
+ position: relative;
+ border-radius: 10px;
+ left: 220px;
+ top: 20px;
+}
+
+.img6 {
+    width: 332px;
+    height:200px ;
+    border-radius: 10px;
+    position: relative ;
+    left: 240px ;
+    top: 20px;
+}
+
+.img4 {
+    width: 332px;
+    height: 200px;
+    position: relative;
+    bottom: 185px;
+    right: 430px;
+    border-radius: 10px;
+}
+.sigmagi123 {
+    width:332px ;
+    height:200px ;
+    border-radius: 10px;
+    position: relative;
+    left: 410px;
+    top: -390px;
+}
+
+.footerdiv3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #003531;
+    height: 500px;
+}
+
+.div {
+    display: flex;  
+    flex-direction: column; 
+    align-items: center;   
+    gap: 10px;
+    position: relative;
+    top:-60px;
+    right:150px;
+    font-family: cursive; 
+    color: white;
+    
+}
+.div4 {
+    display:flex;   
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    top: 130px;
+    right:520px;
+    font-family: cursive;
+    color:white;
+}
+.div5 {
+    display: flex;
+    flex-direction: column;
+    left:150px ;
+    font-family: cursive;
+    position: relative;
+    top: -290px;
+    gap:10px; 
+    color: white;
+
+
+}
+.seaimg {
+    width: 100%;
+    position: relative;
+    top:80px;
+}
+
+.logodivi{
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    float: right;
+    position: relative;
+    bottom: 510px;
+    gap: 10px;
+    left: 420px;
+
+
+    
+}
+.imgi{
+    width: 20px;
+    margin-left: 300px;
+    
+}
+
+.home{
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 gray;
+    color: gray;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.home:hover{
+    box-shadow: inset 0 0 0 10em rgba(255, 255, , alpha);
+    box-shadow: 100px 0 0 0 gray;
+    color: white;
+}
+.logodiv{
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    float: right;
+    position: relative;
+    top: -190px;
+    gap: 10px;
+    left: 500px;
+}
+.headercontainer{
+    display: flex;
+    justify-content: end;
+    flex-direction: end;
+    gap: 10px;
+}
+.imagecontainer{
+    position: relative;
+    display: inline-block;
+}
+
+.imagecontainer1::after{
+    position: absolute;
+    top:48%;
+    left: 20%;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.Galavani{
+width: 1440px;
+height: 530px;
+}
+
+.f1{
+    font-size: 20px;
+    line-height: 20px;
+    width: 800px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #003531;
+}
+
+.f2{
+    font-size: 20px;
+    line-height: 20px;
+    width: 800px;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: #003531;
+}
+.f3{
+    font-size: 20px;
+    line-height: 20px;
+    width: 800px;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: #003531;
+}
+
+.f4{
+    font-size: 20px;
+    line-height: 15px;
+    margin: left 20px;
+    margin-left: 20px;
+    margin: top 10px;
+    color: red;
+}
+
+.f5{
+    font-size: 20px;
+    line-height:15px;
+    margin-left: 20px;
+    color: red;
+}
+
+
+.historicimg{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+}
+
+.img1{
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.cityp{
+    font-family: cursive;
+    display: inline;
+}
+.city{
+    width: 500px;
+    float: right;
+    border: 1px solid;
+    border-radius: 10px;
+    position: relative;
+    bottom:400px;
+}
+
+.weather{
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+    
+}
+.safety{
+    position: relative;
+    left: 400px;
+    bottom: 80px;
+}
+.city1{
+position: relative;
+top: 50px;
+left: 60px;
+}
+
+.date{
+    font-family: cursive;
+    color: #003531;
+}
+
+.secp{
+    position: relative;
+    left: 320px;
+    bottom: 180px;
+    font-size: 14px;
+    font-weight: 900px;
+    line-height: 17px;
+}
+
+.div57 {
+    display: flex;  
+    flex-direction: column; 
+    align-items: center;   
+    gap: 10px;
+    position: relative;
+    top:-60px;
+    right:150px;
+    font-family: cursive; 
+    color: white;
+    
+}
+.div44 {
+    display:flex;   
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    top: 130px;
+    right:520px;
+    font-family: cursive;
+    color:white;
+}
+.div55 {
+    display: flex;
+    flex-direction: column;
+    right: -920px;
+    font-family: cursive;
+    position: relative;
+    top: -290px;
+    gap:10px; 
+    color: white;
+}
+.logodiv102{
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    float: right;
+    position: relative;
+    bottom: 510px;
+    gap: 10px;
+    left: 1220px;
+}
+.imgi {
+    width: 25px;
+}
+.headercontainer2{
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    gap:10px
+}
+.Academy2{
+    height:30px;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    font-weight: 500px;
+    font-size: 18px;
+    font-style: normal;
+    color: black;
+    margin-top: 15px;
+}
+
+.headercontainer{
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+
+
+.secp5{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    position: relative;
+    left:520px;
+    font-size: 40px;
+    margin-top: 50px;
+    padding: 1rem;
+    width: 420px;
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11)
+    0 5px 15px 0 rgba(0, 0, 0, 0.08);
+    background-color: pink;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border-left: 0 solid blue;
+    transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
+}
+
+
+.secimg{
+    margin-top: 50px;
+    width: 500px;
+    height: 200px;
+}
+
+.div111{
+    display: flex;
+    float: left;
+    flex-direction: column;
+}
+.secimg{
+    width: 500px;
+    flex-shrink: 0;
+    border-radius: 10px;
+
+}
+
+
+
+.home{
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 gray;
+    color: gray;
+    transition: color.3s ease-in-out box-shadow.3s ease-in-out;
+}
+
+
+
+.home:hover{
+    box-shadow: inset 0 0 0 10em rgba(255, 255, 255, 0.3);
+    box-shadow: inset 100px 0 0 0 gray;
+    color: white;
+}
+
+.signagito{
+    height: 250px;
+    width: 500px;
+    flex-shrink: 0;
+    position: relative;
+    left: 270px;
+    bottom: -276px;
+    border-radius: 10px;
+}
+.signago{
+    height: 200px;
+    position: relative;
+    left: 210px;
+    bottom: -280px;
+    border-radius: 10px;
+}
+.sugrumelito{
+    height: 200px;
+    position: relative;
+    left: 210px;
+    bottom: -280px;
+    width: 250px;
+    border-radius: 10px;
+}
+.body {
+width: 1920px;
+
+}
+.secp5:hover {
+
+    padding-left: 0.5rem;
+    border-left:o.5rem  solid #00ff99;
+}
+
+.divpp {
+   width: 600px;
+   margin-top: 20px;
+   font-size: 20px;
+   margin-left: 10px;
+   line-height: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.footerdiv331{
+    display: flex;
+    flex-direction: column;
+    background-color: #003531;
+    height: 502px;
+}
+.div57 {
+    display: flex;  
+    flex-direction: column; 
+    align-items: center;   
+    gap: 10px;
+    position: relative;
+    top:-100px;
+    right:150px;
+    font-family: cursive; 
+    color: white;
+
+}
+.div44 {
+    display:flex;   
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    top: 130px;
+    right:520px;
+    font-family: cursive;
+    color:white;
+}
+.div55 {
+    display: flex;
+    flex-direction: column;
+    right: -920px;
+    font-family: cursive;
+    position: relative;
+    top: -340px;
+    gap:10px; 
+    color: white;
+}
+.logodiv10{
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    float: right;
+    position: relative;
+    bottom: 630px;
+    gap: 10px;
+    left: 1220px;
+}
+.maindiv {
+    border-radius:1px solid black ;
+    box-shadow:10px 10px 5px 0px rgba(0,0,0,0.75) ;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    width: 800px;
+    position: relative;
+    left: 400px;
+    top: 300px;
+    
+
+}
+.contact {
+    position: relative;
+    left: 20px;
+    top: -10px;
+}
+.contactp {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.map3 {
+    position: relative;
+    left: 400px;
+    top:335px ;
+    width: 800px;
+}
+.footerdiv1112 {
+    display: flex;
+    flex-direction: column;
+    background-color: #003531;
+    height: 902px;
+
+}
+
+.seaimg112{
+    width: 100%;
+    position: relative;
+    top:500px;
+}
+.div4445{
+  display: flex;
+    flex-direction: column;
+    gap:10px;
+    position: relative;
+    font-family: cursive;
+    top: 520px;
+    right: -110px;
+    color: white;
+}
+
+.div577{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    top: 310px;
+    right: 170px;
+    font-family: cursive;
+    color: white;
+}
+
+
+
+.div1550{
+    display: flex;
+    flex-direction: column;
+    left: 870px;
+    font-family: cursive;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    position: relative;
+    bottom: -100px;
+    color: white;
+}
+.logodiv1010{
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    float: right;
+    position: relative;
+    bottom:100px;
+    gap: 10px;
+    left: 1200px;
+}
+.Home{
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 gray;
+     color:gray;
+     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  .Home:hover {
+    box-shadow: inset 0 0 0 10em rgba(255, 255, 255, 0.3);
+    box-shadow: inset 100px 0 0 0 gray;
+    color: white;
+  }
+  .div202 {
+    display: flex;
+    float: left;
+    flex-direction: column;
+
+  }
+  .secimg220{
+    width: 500px;
+    flex-shrink: 0;
+    border-radius: 10px;
+   
+
+}
+.divp2020 {
+    width: 800px;
+    margin-top: 80px;
+    font-size: 20px;
+    margin-left: 20px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.secimg220 {
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 600px;
+    height: 260px;
+}
+.div202{
+    color:gray;
+}
